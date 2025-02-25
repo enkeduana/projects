@@ -79,8 +79,8 @@ function cambiarTurno() {
 /**
  * Es función comprueba si una celda está vacía, y si no es así compara el contenido 
  * de las celdas siguiendo el patrón de las ocho posibles combinaciones ganadoras. Si
- * haya una combinación ganadora presente en el tablero llama a la función ganadorEncontrado(),
- * y devuelve true.
+ * haya una combinación ganadora presente en el tablero llama a la función 
+ * ganadorEncontrado(), y devuelve true.
  * @returns tenemosGanador (true/false)
  */
 function verificarJugada(){
