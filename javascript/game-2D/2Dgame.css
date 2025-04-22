@@ -1,0 +1,185 @@
+body {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f8f9fa;
+}
+
+#board {
+    width: 500px;
+    height: 500px;
+    border: 2px solid #dee2e6;
+    border-radius: 8px;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#piece {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #F3C969;
+    top: 0;
+    left: 0;
+    max-width: calc(100% - 50px);
+    max-height: calc(100% - 50px);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+#piece:hover {
+    transform: scale(1.05);
+}
+
+#labelTimer, 
+#labelScore,
+#labelDifficulty {
+    margin-top: 10px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+button {
+    font-size: large;
+    margin-top: 10px;
+    text-align: center;
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+#resetMessage, 
+#difficultyMessage {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    min-width: 300px;
+    animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translate(-50%, -20px);
+        opacity: 0;
+    }
+    to {
+        transform: translate(-50%, 0);
+        opacity: 1;
+    }
+}
+
+#resetMessage {
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    color: #856404;
+}
+
+#difficultyMessage {
+    background-color: #cce5ff;
+    border: 1px solid #b8daff;
+    color: #004085;
+}
+
+h1 {
+    color: #343a40;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+.scoreboard {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 500px;
+    overflow-y: auto;
+}
+
+.scoreboard h3 {
+    color: #343a40;
+    font-weight: bold;
+    text-align: center;
+}
+
+#scoreList {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.score-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.score-item:hover {
+    background-color: #e9ecef;
+    transform: translateX(5px);
+}
+
+.score-value {
+    font-weight: bold;
+    color: #28a745;
+}
+
+.score-difficulty {
+    font-size: 0.9em;
+    padding: 2px 8px;
+    border-radius: 12px;
+}
+
+.score-session {
+    font-size: 0.9em;
+    padding: 2px 8px;
+    border-radius: 12px;
+    background-color: #6c757d;
+    color: white;
+}
+
+.score-difficulty.easy {
+    background-color: #4AAD52;
+    color: white;
+}
+
+.score-difficulty.normal {
+    background-color: #F3C969;
+    color: black;
+}
+
+.score-difficulty.hard {
+    background-color: #E63B2E;
+    color: white;
+}
+
+
