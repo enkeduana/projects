@@ -81,8 +81,9 @@ function startNewSession() {
     
     currentSession++;
     sessionPoints = 0;
+    SCORE.innerHTML = sessionPoints;
     RESET_MESSAGE.style.display = 'none';
-    time = 20;
+    time = 10;
     TIMER.innerHTML = time;
     isTimerOn = true;
     
@@ -202,7 +203,7 @@ function pieceClick() {
     
     if (time > 0) {
         // Reset timer to 20 and continue the session
-        time = 20;
+        time =10;
         TIMER.innerHTML = time;
         increaseDifficulty();
     } else {
@@ -215,16 +216,18 @@ function handleDifficultyIncrease() {
     if (isTimerOn) {
         showDifficultyMessage();
         return;
+    } else {
+        increaseDifficulty();
     }
-    increaseDifficulty();
 }
 
 function handleDifficultyDecrease() {
     if (isTimerOn) {
         showDifficultyMessage();
         return;
+    } else {
+        decreaseDifficulty();
     }
-    decreaseDifficulty();
 }
 
 function showDifficultyMessage() {
