@@ -5,23 +5,43 @@
   <title>Upcoming Shows</title>
 </head>
 <body>
-  <h1>Teatro López de Ayala - Próximos ventos</h1>
+  <h1>Teatro López de Ayala - Próximos eventos</h1>
   <ul id="show-list"></ul>
 
   <script>
-    fetch('data.json')
-      .then(res => res.json())
-      .then(shows => {
-        const list = document.getElementById('show-list');
-        shows.forEach(show => {
-          const li = document.createElement('li');
-          li.textContent = `${show.title} — ${show.date} at ${show.time}`;
-          list.appendChild(li);
-        });
-      })
-      .catch(err => {
-        console.error('Error loading data:', err);
+  fetch('data.json')
+    .then(res => res.json())
+    .then(shows => {
+      const container = document.getElementById('show-list');
+
+      shows.forEach(show => {
+        // Crear un <ul> para cada evento
+        const ul = document.createElement('ul');
+        ul.style.marginBottom = '1em'; // Espacio entre eventos (opcional)
+
+        // Crear <li> para cada propiedad
+        const titleLi = document.createElement('li');
+        titleLi.innerHTML = `<strong>Title:</strong> ${show.title}`;
+
+        const dateLi = document.createElement('li');
+        dateLi.innerHTML = `<strong>Date:</strong> ${show.date}`;
+
+        const timeLi = document.createElement('li');
+        timeLi.innerHTML = `<strong>Time:</strong> ${show.time}`;
+
+        // Añadir los <li> al <ul>
+        ul.appendChild(titleLi);
+        ul.appendChild(dateLi);
+        ul.appendChild(timeLi);
+
+        // Añadir el <ul> al contenedor
+        container.appendChild(ul);
       });
-  </script>
+    })
+    .catch(err => {
+      console.error('Error loading data:', err);
+    });
+</script>
+
 </body>
 </html>
