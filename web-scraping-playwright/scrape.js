@@ -1,5 +1,4 @@
 const { chromium } = require('playwright');
-const fs = require('fs');
 
 (async () => {
   const browser = await chromium.launch({ headless: true });
@@ -34,12 +33,6 @@ const fs = require('fs');
     console.log(`Hora: ${show.time}\n`);
 
   });
-
-  
-
-  fs.writeFileSync('data.json', JSON.stringify(shows, null, 2), 'utf-8');
-
-  console.log('Datos guardados en data.json');
 
   await browser.close();
 })();
