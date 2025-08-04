@@ -27,6 +27,15 @@
           const card = document.createElement('div');
           card.className = 'card h-100 shadow-sm';
 
+          // Imagen
+          if (show.imagePath) {
+            const img = document.createElement('img');
+            img.src = show.imagePath;
+            img.className = 'card-img-top';
+            img.alt = show.title;
+            card.appendChild(img);
+          }
+
           const cardBody = document.createElement('div');
           cardBody.className = 'card-body';
 

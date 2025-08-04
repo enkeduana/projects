@@ -2,141 +2,197 @@
   {
     "title": "CINE DE VERANO - \"POBRES CRIATURAS\"",
     "date": "Miércoles 06 de agosto",
-    "time": "22:00"
+    "time": "22:00",
+    "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1753274739POBRES_CRIATURAS-web.jpg",
+    "imagePath": "images/CINE DE VERANO - _POBRES CRIATURAS_.jpg"
   },
   {
     "title": "LAS VERBENAS DEL LÓPEZ - \"COMANDO BELUSHI\"",
     "date": "Viernes 08 de agosto",
-    "time": "22:00"
+    "time": "22:00",
+    "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1753171845WEB.jpg",
+    "imagePath": "images/LAS VERBENAS DEL LÓPEZ - _COMANDO BELUSHI_.jpg"
   },
   {
     "title": "CINE DE VERANO - \"BUFFALO KIDS\"",
     "date": "Miércoles 13 de agosto",
-    "time": "22:00"
+    "time": "22:00",
+    "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1753274941BUFFALO_KIDS-web.jpg",
+    "imagePath": "images/CINE DE VERANO - _BUFFALO KIDS_.jpg"
   },
   {
     "title": "CINE DE VERANO - \"LA INFILTRADA\"",
     "date": "Miércoles 20 de agosto",
-    "time": "22:00"
+    "time": "22:00",
+    "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1753275257LA_INFILTRADA-web.jpg",
+    "imagePath": "images/CINE DE VERANO - _LA INFILTRADA_.jpg"
   },
   {
     "title": "EXTREME STRAITS - \"TRIBUTO A DIRE STRAITS Y MARK KNOPFLER\"",
     "date": "Viernes 22 de agosto",
-    "time": "22:00"
+    "time": "22:00",
+    "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1748600794CARTEL-CONCIERTO_3.jpg",
+    "imagePath": "images/EXTREME STRAITS - _TRIBUTO A DIRE STRAITS Y MARK KNOPFLER_.jpg"
   },
   {
     "title": "PRÓXIMA PARADA - TRIBUTO A MANUEL CARRASCO",
     "date": "Sábado 23 de agosto",
-    "time": "22:00"
+    "time": "22:00",
+    "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1748601032Manuel-Carrasco-Tributo-860x500px.png",
+    "imagePath": "images/PRÓXIMA PARADA - TRIBUTO A MANUEL CARRASCO.png"
   },
   {
     "title": "CINE DE VERANO - \"INSIDE OUT 2\"",
     "date": "Miércoles 27 de agosto",
-    "time": "22:00"
+    "time": "22:00",
+    "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1753275347INSIDE_OUT-web.jpg",
+    "imagePath": "images/CINE DE VERANO - _INSIDE OUT 2_.jpg"
   },
   {
     "title": "MANOLO, EL BURRO Y CÍA. - \"HOMENAJE A EL ÚLTIMO DE LA FILA, LOS BURROS Y MANOLO GARCÍA\"",
     "date": "Viernes 29 de agosto",
-    "time": "22:00"
+    "time": "22:00",
+    "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1748601165Manolo-El-Burro-y-CIA---860x500px.jpg",
+    "imagePath": "images/MANOLO, EL BURRO Y CÍA. - _HOMENAJE A EL ÚLTIMO DE LA FILA, LOS BURROS Y MANOLO GARCÍA_.jpg"
   },
   {
     "title": "MT80 - MÚSICA INTERNACIONAL DE LOS AÑOS 80-90",
     "date": "Sábado 30 de agosto",
-    "time": "22:00"
+    "time": "22:00",
+    "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1752739011WEB.jpg",
+    "imagePath": "images/MT80 - MÚSICA INTERNACIONAL DE LOS AÑOS 80-90.jpg"
   },
   {
     "title": "CINE DE VERANO - \"DUNE 2\"",
     "date": "Miércoles 03 de septiembre",
-    "time": "22:00"
+    "time": "22:00",
+    "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1753275727DUNE_2-web.jpg",
+    "imagePath": "images/CINE DE VERANO - _DUNE 2_.jpg"
   },
   {
     "title": "LAS VERBENAS DEL LÓPEZ - \"SOVERSION\"",
     "date": "Jueves 04 de septiembre",
-    "time": "22:00"
+    "time": "22:00",
+    "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1753270088PHOTO-2025-07-03-11-12-19-1-.jpg",
+    "imagePath": "images/LAS VERBENAS DEL LÓPEZ - _SOVERSION_.jpg"
   },
   {
     "title": "MUESTRA DE TEATRO AMATEUR DE EXTREMADURA - \"LA CALENTURA\"",
     "date": "Jueves 11 de septiembre",
-    "time": "21:00"
+    "time": "21:00",
+    "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1743680496CC66D368-1DCB-4DB5-B5B4-269052B51A33.jpeg",
+    "imagePath": "images/MUESTRA DE TEATRO AMATEUR DE EXTREMADURA - _LA CALENTURA_.jpeg"
   },
   {
     "title": "LAS VERBENAS DEL LÓPEZ - \"REWINDER\"",
     "date": "Viernes 12 de septiembre",
-    "time": "12:00"
+    "time": "12:00",
+    "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1753342719REWINDER.png",
+    "imagePath": "images/LAS VERBENAS DEL LÓPEZ - _REWINDER_.png"
   },
   {
     "title": "CONCIERTO DE VERANO EN LA TERRAZA DEL LÓPEZ DE AYALA CON CAPSULA",
     "date": "Sábado 13 de septiembre",
-    "time": "21:00"
+    "time": "21:00",
+    "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1753869448WEB.jpg",
+    "imagePath": "images/CONCIERTO DE VERANO EN LA TERRAZA DEL LÓPEZ DE AYALA CON CAPSULA.jpg"
   },
   {
     "title": "CONCIERTO HOMENAJE BICENTENARIO POLICÍA NACIONAL",
     "date": "Miércoles 17 de septiembre",
-    "time": "19:30"
+    "time": "19:30",
+    "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1753955394WEB-POLICIA.png",
+    "imagePath": "images/CONCIERTO HOMENAJE BICENTENARIO POLICÍA NACIONAL.png"
   },
   {
     "title": "\"EL BALNEARIO\"",
     "date": "Viernes 19 de septiembre",
-    "time": "21:00"
+    "time": "21:00",
+    "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1751876753El-Balneario---Baja-35.jpg",
+    "imagePath": "images/_EL BALNEARIO_.jpg"
   },
   {
     "title": "TAMARA. Gira \"25 AÑOS DE CORAZÓN\" - Piano y Voz",
     "date": "Sábado 20 de septiembre",
-    "time": "21:00"
+    "time": "21:00",
+    "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1749713154Tamara_Gira25An%CC%83os_Post.jpg",
+    "imagePath": "images/TAMARA. Gira _25 AÑOS DE CORAZÓN_ - Piano y Voz.jpg"
   },
   {
     "title": "XI FESTIVAL DE ALUMNOS DEL CENTRO DE FLAMENCO JESÚS ORTEGA",
     "date": "Viernes 26 de septiembre",
-    "time": "21:00"
+    "time": "21:00",
+    "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1751962032Banner-516x306.jpg",
+    "imagePath": "images/XI FESTIVAL DE ALUMNOS DEL CENTRO DE FLAMENCO JESÚS ORTEGA.jpg"
   },
   {
     "title": "CONCIERTO DE BLACKBIRDS - \"SOUNDS OF SILENCE\"",
     "date": "Viernes 03 de octubre",
-    "time": "21:00"
+    "time": "21:00",
+    "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1753950321thumbnail_Cartel.png",
+    "imagePath": "images/CONCIERTO DE BLACKBIRDS - _SOUNDS OF SILENCE_.png"
   },
   {
     "title": "MALDITA NEREA - \"ORIGEN\"",
     "date": "Viernes 31 de octubre",
-    "time": "21:00"
+    "time": "21:00",
+    "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1739353365GIRA_ORIGEN_BADAJOZ_web.jpg",
+    "imagePath": "images/MALDITA NEREA - _ORIGEN_.jpg"
   },
   {
     "title": "\"EL LAGO DE LOS CISNES\" - BALLET DE KIEV de Viktor Ishchuk",
     "date": "Viernes 14 de noviembre",
-    "time": "20:30"
+    "time": "20:30",
+    "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/174290801465-BK-badajoz-lago-860x500.jpg",
+    "imagePath": "images/_EL LAGO DE LOS CISNES_ - BALLET DE KIEV de Viktor Ishchuk.jpg"
   },
   {
     "title": "SANTIAGO AUSERÓN - \"NERANTZI\"",
     "date": "Sábado 15 de noviembre",
-    "time": "21:00"
+    "time": "21:00",
+    "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1744102058Foto-1-860x-500.jpg",
+    "imagePath": "images/SANTIAGO AUSERÓN - _NERANTZI_.jpg"
   },
   {
     "title": "COMANDANTE LARA Y CÍA. - \"VIAJE CON NOSOTROS\"",
     "date": "Sábado 29 de noviembre",
-    "time": "21:00"
+    "time": "21:00",
+    "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1745494467Cartel_A3Apaisado.jpg",
+    "imagePath": "images/COMANDANTE LARA Y CÍA. - _VIAJE CON NOSOTROS_.jpg"
   },
   {
     "title": "EL CASCANUECES - THÉÂTRE CLASSIQUE",
     "date": "Jueves 04 de diciembre",
-    "time": "21:00"
+    "time": "21:00",
+    "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1745570931ClassicStage_TheNutcracker_01--1-.JPG",
+    "imagePath": "images/EL CASCANUECES - THÉÂTRE CLASSIQUE.JPG"
   },
   {
     "title": "SIEMPRE ASÍ - \"SIEMPRE MAHARETA\"",
     "date": "Jueves 11 de diciembre",
-    "time": "21:00"
+    "time": "21:00",
+    "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1744791252IMAGEN-OF-HORINZONTAL-2024.jpg",
+    "imagePath": "images/SIEMPRE ASÍ - _SIEMPRE MAHARETA_.jpg"
   },
   {
     "title": "QUIQUE GONZÁLEZ - Gira \"1973\"",
     "date": "Sábado 17 de enero de 2026",
-    "time": "21:00"
+    "time": "21:00",
+    "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1752485022Quique-Gonza%CC%81lez-4.-Foto-por-Fernando-Maquieira.jpg",
+    "imagePath": "images/QUIQUE GONZÁLEZ - Gira _1973_.jpg"
   },
   {
     "title": "JUAN VALDERRAMA - \"HISTORIAS DE LA COPLA\"",
     "date": "Sábado 24 de enero de 2026",
-    "time": "21:00"
+    "time": "21:00",
+    "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1752567608WEB.jpg",
+    "imagePath": "images/JUAN VALDERRAMA - _HISTORIAS DE LA COPLA_.jpg"
   },
   {
     "title": "MIGUEL RIOS - Gira \"EL ÚLTIMO VALS\"",
     "date": "Sábado 28 de febrero de 2026",
-    "time": "20:00"
+    "time": "20:00",
+    "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1752657782WEB-3.jpg",
+    "imagePath": "images/MIGUEL RIOS - Gira _EL ÚLTIMO VALS_.jpg"
   }
 ]
