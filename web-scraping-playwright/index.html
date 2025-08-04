@@ -3,45 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <title>Upcoming Shows</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-  <h1>Teatro López de Ayala - Próximos eventos</h1>
-  <ul id="show-list"></ul>
+<body class="bg-light">
+  <div class="container py-5">
+    <h1 class="text-center mb-5">Teatro López de Ayala - Próximos eventos</h1>
+
+    <div class="row" id="show-list">
+      <!-- Las tarjetas aparecerán aquí -->
+    </div>
+  </div>
 
   <script>
-  fetch('data.json')
-    .then(res => res.json())
-    .then(shows => {
-      const container = document.getElementById('show-list');
+    fetch('data.json')
+      .then(res => res.json())
+      .then(shows => {
+        const container = document.getElementById('show-list');
 
-      shows.forEach(show => {
-        // Crear un <ul> para cada evento
-        const ul = document.createElement('ul');
-        ul.style.marginBottom = '1em'; // Espacio entre eventos (opcional)
+        shows.forEach(show => {
+          const col = document.createElement('div');
+          col.className = 'col-md-4 mb-4';
 
-        // Crear <li> para cada propiedad
-        const titleLi = document.createElement('li');
-        titleLi.innerHTML = `<strong>Title:</strong> ${show.title}`;
+          const card = document.createElement('div');
+          card.className = 'card h-100 shadow-sm';
 
-        const dateLi = document.createElement('li');
-        dateLi.innerHTML = `<strong>Date:</strong> ${show.date}`;
+          const cardBody = document.createElement('div');
+          cardBody.className = 'card-body';
 
-        const timeLi = document.createElement('li');
-        timeLi.innerHTML = `<strong>Time:</strong> ${show.time}`;
+          const title = document.createElement('h5');
+          title.className = 'card-title';
+          title.textContent = show.title;
 
-        // Añadir los <li> al <ul>
-        ul.appendChild(titleLi);
-        ul.appendChild(dateLi);
-        ul.appendChild(timeLi);
+          const date = document.createElement('p');
+          date.className = 'card-text';
+          date.innerHTML = `<strong>Fecha:</strong> ${show.date}`;
 
-        // Añadir el <ul> al contenedor
-        container.appendChild(ul);
+          const time = document.createElement('p');
+          time.className = 'card-text';
+          time.innerHTML = `<strong>Hora:</strong> ${show.time}`;
+
+          cardBody.appendChild(title);
+          cardBody.appendChild(date);
+          cardBody.appendChild(time);
+
+          card.appendChild(cardBody);
+          col.appendChild(card);
+          container.appendChild(col);
+        });
+      })
+      .catch(err => {
+        console.error('Error loading data:', err);
       });
-    })
-    .catch(err => {
-      console.error('Error loading data:', err);
-    });
-</script>
-
+  </script>
 </body>
 </html>
