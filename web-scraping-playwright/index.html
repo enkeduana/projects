@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Upcoming Shows</title>
+</head>
+<body>
+  <h1>Teatro López de Ayala - Próximos ventos</h1>
+  <ul id="show-list"></ul>
+
+  <script>
+    fetch('data.json')
+      .then(res => res.json())
+      .then(shows => {
+        const list = document.getElementById('show-list');
+        shows.forEach(show => {
+          const li = document.createElement('li');
+          li.textContent = `${show.title} — ${show.date} at ${show.time}`;
+          list.appendChild(li);
+        });
+      })
+      .catch(err => {
+        console.error('Error loading data:', err);
+      });
+  </script>
+</body>
+</html>
