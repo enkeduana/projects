@@ -254,7 +254,7 @@
   {
     "title": "CONCIERTO ROCK – LADY DOG",
     "rawDate": "19 sep. 2025",
-    "time": "Sin hora",
+    "time": null,
     "venue": "Gran Teatro de Cáceres",
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/granteatro-Rescalada02alargado.jpg",
     "date": "19-09-2025",
@@ -263,7 +263,7 @@
   {
     "title": "PESAME,PESAME MUCHO",
     "rawDate": "21 sep. 2025",
-    "time": "Sin hora",
+    "time": null,
     "venue": "Gran Teatro de Cáceres",
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/CartelPsamePsameMuchoMuestraTAmateur.jpg",
     "date": "21-09-2025",
@@ -272,7 +272,7 @@
   {
     "title": "EL GATO CON JOTAS",
     "rawDate": "26 sep. 2025",
-    "time": "Sin hora",
+    "time": null,
     "venue": "Gran Teatro de Cáceres",
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/FOTOGATO.jpg",
     "date": "26-09-2025",
@@ -281,7 +281,7 @@
   {
     "title": "ALEX O´DOGHERTY, Palabras Mayores",
     "rawDate": "27 sep. 2025",
-    "time": "Sin hora",
+    "time": null,
     "venue": "Gran Teatro de Cáceres",
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/web2-1.jpg",
     "date": "27-09-2025",
@@ -290,7 +290,7 @@
   {
     "title": "UN CADAVER A LAS DIEZ",
     "rawDate": "28 sep. 2025",
-    "time": "Sin hora",
+    "time": null,
     "venue": "Gran Teatro de Cáceres",
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/CADAVERALASDIEZ.jpg",
     "date": "28-09-2025",
@@ -299,7 +299,7 @@
   {
     "title": "MIRIAN CANTERO",
     "rawDate": "2 oct. 2025",
-    "time": "Sin hora",
+    "time": null,
     "venue": "Gran Teatro de Cáceres",
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/LOSJUEVESALSONMIRIAMCANTERO.jpg",
     "date": "02-10-2025",
@@ -308,7 +308,7 @@
   {
     "title": "DANI MATEO, ¿POR QUÉ NO TE CALLAS?",
     "rawDate": "5 oct. 2025",
-    "time": "Sin hora",
+    "time": null,
     "venue": "Gran Teatro de Cáceres",
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/70x100DaniMAteookcaceresWEB.jpg",
     "date": "05-10-2025",
@@ -317,7 +317,7 @@
   {
     "title": "NIÑO INDIGO presenta PAISAJES A MITAD DEL CAMINO",
     "rawDate": "9 oct. 2025",
-    "time": "Sin hora",
+    "time": null,
     "venue": "Gran Teatro de Cáceres",
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/CARTELLOSJUEVESALSONNIOINDIGO.jpg",
     "date": "09-10-2025",
@@ -326,7 +326,7 @@
   {
     "title": "LA APARICIÓN",
     "rawDate": "11 oct. 2025",
-    "time": "Sin hora",
+    "time": null,
     "venue": "Gran Teatro de Cáceres",
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/APARICION.jpg",
     "date": "11-10-2025",
@@ -335,7 +335,7 @@
   {
     "title": "NO ME TOQUES EL CUENTO, SEGUNDA TEMPORADA",
     "rawDate": "19 oct. 2025",
-    "time": "Sin hora",
+    "time": null,
     "venue": "Gran Teatro de Cáceres",
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/NOME.jpg",
     "date": "19-10-2025",
@@ -344,7 +344,7 @@
   {
     "title": "DREAMING BUBBLES",
     "rawDate": "26 oct. 2025",
-    "time": "Sin hora",
+    "time": null,
     "venue": "Gran Teatro de Cáceres",
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/BubblesCceres.jpg",
     "date": "26-10-2025",
@@ -353,7 +353,7 @@
   {
     "title": "SANTIAGO USERÓN - NERANTZI",
     "rawDate": "14 nov. 2025",
-    "time": "Sin hora",
+    "time": null,
     "venue": "Gran Teatro de Cáceres",
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/SANTIAGOUSERON.jpg",
     "date": "14-11-2025",
@@ -362,7 +362,7 @@
   {
     "title": "GRAN CIRCO ACROBÁTICO DE CHINA",
     "rawDate": "22 nov. 2025",
-    "time": "Sin hora",
+    "time": null,
     "venue": "Gran Teatro de Cáceres",
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/china.jpg",
     "date": "22-11-2025",
@@ -371,7 +371,7 @@
   {
     "title": "JUAN VALDERRAMA. HISTORIAS DE LA COPLA",
     "rawDate": "30 nov. 2025",
-    "time": "Sin hora",
+    "time": null,
     "venue": "Gran Teatro de Cáceres",
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/VAL-CC-POST.jpg",
     "date": "30-11-2025",
@@ -380,7 +380,7 @@
   {
     "title": "QUIQUE GONZALEZ, Gira 1973",
     "rawDate": "16 ene. 2026",
-    "time": "Sin hora",
+    "time": null,
     "venue": "Gran Teatro de Cáceres",
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/QUIQUE.jpg",
     "date": "16-01-2026",

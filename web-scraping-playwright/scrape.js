@@ -143,7 +143,7 @@ async function scrapeGranTeatro(browser) {
       return {
         title: titleEl?.innerText.trim() || '',
         rawDate: dateEls[0]?.innerText.trim() || '',
-        time: 'Sin hora',
+        time: null,
         venue: 'Gran Teatro de Cáceres',
         image: imageEl?.src || null
       };

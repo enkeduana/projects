@@ -50,6 +50,7 @@
           const time = document.createElement('p');
           time.className = 'card-text';
           time.innerHTML = `<strong>Hora:</strong> ${show.time}`;
+          
 
           const venue = document.createElement('p');
           venue.className = 'card-text';
@@ -57,7 +58,11 @@
 
           cardBody.appendChild(title);
           cardBody.appendChild(date);
-          cardBody.appendChild(time);
+
+          if(show.time){
+            cardBody.appendChild(time);
+          }
+          
           cardBody.appendChild(venue);
 
           card.appendChild(cardBody);
