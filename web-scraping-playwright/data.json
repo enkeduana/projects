@@ -1,346 +1,389 @@
 [
   {
     "title": "CINE DE VERANO - \"POBRES CRIATURAS\"",
-    "date": "Miércoles 06 de agosto",
+    "rawDate": "Miércoles 06 de agosto",
     "time": "22:00",
     "venue": "Teatro López de Ayala",
     "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1753274739POBRES_CRIATURAS-web.jpg",
+    "date": "06-08-2025",
     "imagePath": "images/CINE DE VERANO - _POBRES CRIATURAS_.jpg"
   },
   {
     "title": "LAS VERBENAS DEL LÓPEZ - \"COMANDO BELUSHI\"",
-    "date": "Viernes 08 de agosto",
+    "rawDate": "Viernes 08 de agosto",
     "time": "22:00",
     "venue": "Teatro López de Ayala",
     "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1753171845WEB.jpg",
+    "date": "08-08-2025",
     "imagePath": "images/LAS VERBENAS DEL LÓPEZ - _COMANDO BELUSHI_.jpg"
   },
   {
     "title": "CINE DE VERANO - \"BUFFALO KIDS\"",
-    "date": "Miércoles 13 de agosto",
+    "rawDate": "Miércoles 13 de agosto",
     "time": "22:00",
     "venue": "Teatro López de Ayala",
     "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1753274941BUFFALO_KIDS-web.jpg",
+    "date": "13-08-2025",
     "imagePath": "images/CINE DE VERANO - _BUFFALO KIDS_.jpg"
   },
   {
     "title": "CINE DE VERANO - \"LA INFILTRADA\"",
-    "date": "Miércoles 20 de agosto",
+    "rawDate": "Miércoles 20 de agosto",
     "time": "22:00",
     "venue": "Teatro López de Ayala",
     "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1753275257LA_INFILTRADA-web.jpg",
+    "date": "20-08-2025",
     "imagePath": "images/CINE DE VERANO - _LA INFILTRADA_.jpg"
   },
   {
     "title": "EXTREME STRAITS - \"TRIBUTO A DIRE STRAITS Y MARK KNOPFLER\"",
-    "date": "Viernes 22 de agosto",
+    "rawDate": "Viernes 22 de agosto",
     "time": "22:00",
     "venue": "Teatro López de Ayala",
     "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1748600794CARTEL-CONCIERTO_3.jpg",
+    "date": "22-08-2025",
     "imagePath": "images/EXTREME STRAITS - _TRIBUTO A DIRE STRAITS Y MARK KNOPFLER_.jpg"
   },
   {
     "title": "PRÓXIMA PARADA - TRIBUTO A MANUEL CARRASCO",
-    "date": "Sábado 23 de agosto",
+    "rawDate": "Sábado 23 de agosto",
     "time": "22:00",
     "venue": "Teatro López de Ayala",
     "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1748601032Manuel-Carrasco-Tributo-860x500px.png",
+    "date": "23-08-2025",
     "imagePath": "images/PRÓXIMA PARADA - TRIBUTO A MANUEL CARRASCO.png"
   },
   {
     "title": "CINE DE VERANO - \"INSIDE OUT 2\"",
-    "date": "Miércoles 27 de agosto",
+    "rawDate": "Miércoles 27 de agosto",
     "time": "22:00",
     "venue": "Teatro López de Ayala",
     "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1753275347INSIDE_OUT-web.jpg",
+    "date": "27-08-2025",
     "imagePath": "images/CINE DE VERANO - _INSIDE OUT 2_.jpg"
   },
   {
     "title": "MANOLO, EL BURRO Y CÍA. - \"HOMENAJE A EL ÚLTIMO DE LA FILA, LOS BURROS Y MANOLO GARCÍA\"",
-    "date": "Viernes 29 de agosto",
+    "rawDate": "Viernes 29 de agosto",
     "time": "22:00",
     "venue": "Teatro López de Ayala",
     "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1748601165Manolo-El-Burro-y-CIA---860x500px.jpg",
+    "date": "29-08-2025",
     "imagePath": "images/MANOLO, EL BURRO Y CÍA. - _HOMENAJE A EL ÚLTIMO DE LA FILA, LOS BURROS Y MANOLO GARCÍA_.jpg"
   },
   {
     "title": "MT80 - MÚSICA INTERNACIONAL DE LOS AÑOS 80-90",
-    "date": "Sábado 30 de agosto",
+    "rawDate": "Sábado 30 de agosto",
     "time": "22:00",
     "venue": "Teatro López de Ayala",
     "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1752739011WEB.jpg",
+    "date": "30-08-2025",
     "imagePath": "images/MT80 - MÚSICA INTERNACIONAL DE LOS AÑOS 80-90.jpg"
   },
   {
     "title": "CINE DE VERANO - \"DUNE 2\"",
-    "date": "Miércoles 03 de septiembre",
+    "rawDate": "Miércoles 03 de septiembre",
     "time": "22:00",
     "venue": "Teatro López de Ayala",
     "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1753275727DUNE_2-web.jpg",
+    "date": "03-09-2025",
     "imagePath": "images/CINE DE VERANO - _DUNE 2_.jpg"
   },
   {
     "title": "LAS VERBENAS DEL LÓPEZ - \"SOVERSION\"",
-    "date": "Jueves 04 de septiembre",
+    "rawDate": "Jueves 04 de septiembre",
     "time": "22:00",
     "venue": "Teatro López de Ayala",
     "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1753270088PHOTO-2025-07-03-11-12-19-1-.jpg",
+    "date": "04-09-2025",
     "imagePath": "images/LAS VERBENAS DEL LÓPEZ - _SOVERSION_.jpg"
   },
   {
     "title": "MUESTRA DE TEATRO AMATEUR DE EXTREMADURA - \"LA CALENTURA\"",
-    "date": "Jueves 11 de septiembre",
+    "rawDate": "Jueves 11 de septiembre",
     "time": "21:00",
     "venue": "Teatro López de Ayala",
     "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1743680496CC66D368-1DCB-4DB5-B5B4-269052B51A33.jpeg",
+    "date": "11-09-2025",
     "imagePath": "images/MUESTRA DE TEATRO AMATEUR DE EXTREMADURA - _LA CALENTURA_.jpeg"
   },
   {
     "title": "LAS VERBENAS DEL LÓPEZ - \"REWINDER\"",
-    "date": "Viernes 12 de septiembre",
+    "rawDate": "Viernes 12 de septiembre",
     "time": "12:00",
     "venue": "Teatro López de Ayala",
     "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1753342719REWINDER.png",
+    "date": "12-09-2025",
     "imagePath": "images/LAS VERBENAS DEL LÓPEZ - _REWINDER_.png"
   },
   {
     "title": "CONCIERTO DE VERANO EN LA TERRAZA DEL LÓPEZ DE AYALA CON CAPSULA",
-    "date": "Sábado 13 de septiembre",
+    "rawDate": "Sábado 13 de septiembre",
     "time": "21:00",
     "venue": "Teatro López de Ayala",
     "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1753869448WEB.jpg",
+    "date": "13-09-2025",
     "imagePath": "images/CONCIERTO DE VERANO EN LA TERRAZA DEL LÓPEZ DE AYALA CON CAPSULA.jpg"
   },
   {
     "title": "CONCIERTO HOMENAJE BICENTENARIO POLICÍA NACIONAL",
-    "date": "Miércoles 17 de septiembre",
+    "rawDate": "Miércoles 17 de septiembre",
     "time": "19:30",
     "venue": "Teatro López de Ayala",
     "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1753955394WEB-POLICIA.png",
+    "date": "17-09-2025",
     "imagePath": "images/CONCIERTO HOMENAJE BICENTENARIO POLICÍA NACIONAL.png"
   },
   {
     "title": "\"EL BALNEARIO\"",
-    "date": "Viernes 19 de septiembre",
+    "rawDate": "Viernes 19 de septiembre",
     "time": "21:00",
     "venue": "Teatro López de Ayala",
     "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1751876753El-Balneario---Baja-35.jpg",
+    "date": "19-09-2025",
     "imagePath": "images/_EL BALNEARIO_.jpg"
   },
   {
     "title": "TAMARA. Gira \"25 AÑOS DE CORAZÓN\" - Piano y Voz",
-    "date": "Sábado 20 de septiembre",
+    "rawDate": "Sábado 20 de septiembre",
     "time": "21:00",
     "venue": "Teatro López de Ayala",
     "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1749713154Tamara_Gira25An%CC%83os_Post.jpg",
+    "date": "20-09-2025",
     "imagePath": "images/TAMARA. Gira _25 AÑOS DE CORAZÓN_ - Piano y Voz.jpg"
   },
   {
     "title": "XI FESTIVAL DE ALUMNOS DEL CENTRO DE FLAMENCO JESÚS ORTEGA",
-    "date": "Viernes 26 de septiembre",
+    "rawDate": "Viernes 26 de septiembre",
     "time": "21:00",
     "venue": "Teatro López de Ayala",
     "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1751962032Banner-516x306.jpg",
+    "date": "26-09-2025",
     "imagePath": "images/XI FESTIVAL DE ALUMNOS DEL CENTRO DE FLAMENCO JESÚS ORTEGA.jpg"
   },
   {
     "title": "CONCIERTO DE BLACKBIRDS - \"SOUNDS OF SILENCE\"",
-    "date": "Viernes 03 de octubre",
+    "rawDate": "Viernes 03 de octubre",
     "time": "21:00",
     "venue": "Teatro López de Ayala",
     "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1753950321thumbnail_Cartel.png",
+    "date": "03-10-2025",
     "imagePath": "images/CONCIERTO DE BLACKBIRDS - _SOUNDS OF SILENCE_.png"
   },
   {
     "title": "MALDITA NEREA - \"ORIGEN\"",
-    "date": "Viernes 31 de octubre",
+    "rawDate": "Viernes 31 de octubre",
     "time": "21:00",
     "venue": "Teatro López de Ayala",
     "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1739353365GIRA_ORIGEN_BADAJOZ_web.jpg",
+    "date": "31-10-2025",
     "imagePath": "images/MALDITA NEREA - _ORIGEN_.jpg"
   },
   {
     "title": "\"EL LAGO DE LOS CISNES\" - BALLET DE KIEV de Viktor Ishchuk",
-    "date": "Viernes 14 de noviembre",
+    "rawDate": "Viernes 14 de noviembre",
     "time": "20:30",
     "venue": "Teatro López de Ayala",
     "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/174290801465-BK-badajoz-lago-860x500.jpg",
+    "date": "14-11-2025",
     "imagePath": "images/_EL LAGO DE LOS CISNES_ - BALLET DE KIEV de Viktor Ishchuk.jpg"
   },
   {
     "title": "SANTIAGO AUSERÓN - \"NERANTZI\"",
-    "date": "Sábado 15 de noviembre",
+    "rawDate": "Sábado 15 de noviembre",
     "time": "21:00",
     "venue": "Teatro López de Ayala",
     "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1744102058Foto-1-860x-500.jpg",
+    "date": "15-11-2025",
     "imagePath": "images/SANTIAGO AUSERÓN - _NERANTZI_.jpg"
   },
   {
     "title": "COMANDANTE LARA Y CÍA. - \"VIAJE CON NOSOTROS\"",
-    "date": "Sábado 29 de noviembre",
+    "rawDate": "Sábado 29 de noviembre",
     "time": "21:00",
     "venue": "Teatro López de Ayala",
     "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1745494467Cartel_A3Apaisado.jpg",
+    "date": "29-11-2025",
     "imagePath": "images/COMANDANTE LARA Y CÍA. - _VIAJE CON NOSOTROS_.jpg"
   },
   {
     "title": "EL CASCANUECES - THÉÂTRE CLASSIQUE",
-    "date": "Jueves 04 de diciembre",
+    "rawDate": "Jueves 04 de diciembre",
     "time": "21:00",
     "venue": "Teatro López de Ayala",
     "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1745570931ClassicStage_TheNutcracker_01--1-.JPG",
+    "date": "04-12-2025",
     "imagePath": "images/EL CASCANUECES - THÉÂTRE CLASSIQUE.JPG"
   },
   {
     "title": "SIEMPRE ASÍ - \"SIEMPRE MAHARETA\"",
-    "date": "Jueves 11 de diciembre",
+    "rawDate": "Jueves 11 de diciembre",
     "time": "21:00",
     "venue": "Teatro López de Ayala",
     "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1744791252IMAGEN-OF-HORINZONTAL-2024.jpg",
+    "date": "11-12-2025",
     "imagePath": "images/SIEMPRE ASÍ - _SIEMPRE MAHARETA_.jpg"
   },
   {
     "title": "QUIQUE GONZÁLEZ - Gira \"1973\"",
-    "date": "Sábado 17 de enero de 2026",
+    "rawDate": "Sábado 17 de enero de 2026",
     "time": "21:00",
     "venue": "Teatro López de Ayala",
     "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1752485022Quique-Gonza%CC%81lez-4.-Foto-por-Fernando-Maquieira.jpg",
+    "date": "17-01-2025",
     "imagePath": "images/QUIQUE GONZÁLEZ - Gira _1973_.jpg"
   },
   {
     "title": "JUAN VALDERRAMA - \"HISTORIAS DE LA COPLA\"",
-    "date": "Sábado 24 de enero de 2026",
+    "rawDate": "Sábado 24 de enero de 2026",
     "time": "21:00",
     "venue": "Teatro López de Ayala",
     "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1752567608WEB.jpg",
+    "date": "24-01-2025",
     "imagePath": "images/JUAN VALDERRAMA - _HISTORIAS DE LA COPLA_.jpg"
   },
   {
     "title": "MIGUEL RIOS - Gira \"EL ÚLTIMO VALS\"",
-    "date": "Sábado 28 de febrero de 2026",
+    "rawDate": "Sábado 28 de febrero de 2026",
     "time": "20:00",
     "venue": "Teatro López de Ayala",
     "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1752657782WEB-3.jpg",
+    "date": "28-02-2025",
     "imagePath": "images/MIGUEL RIOS - Gira _EL ÚLTIMO VALS_.jpg"
   },
   {
     "title": "CONCIERTO ROCK – LADY DOG",
-    "date": "19 sep. 2025",
+    "rawDate": "19 sep. 2025",
     "time": "Sin hora",
     "venue": "Gran Teatro de Cáceres",
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/granteatro-Rescalada02alargado.jpg",
+    "date": "19-09-2025",
     "imagePath": "images/CONCIERTO ROCK – LADY DOG.jpg"
   },
   {
     "title": "PESAME,PESAME MUCHO",
-    "date": "21 sep. 2025",
+    "rawDate": "21 sep. 2025",
     "time": "Sin hora",
     "venue": "Gran Teatro de Cáceres",
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/CartelPsamePsameMuchoMuestraTAmateur.jpg",
+    "date": "21-09-2025",
     "imagePath": "images/PESAME,PESAME MUCHO.jpg"
   },
   {
     "title": "EL GATO CON JOTAS",
-    "date": "26 sep. 2025",
+    "rawDate": "26 sep. 2025",
     "time": "Sin hora",
     "venue": "Gran Teatro de Cáceres",
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/FOTOGATO.jpg",
+    "date": "26-09-2025",
     "imagePath": "images/EL GATO CON JOTAS.jpg"
   },
   {
     "title": "ALEX O´DOGHERTY, Palabras Mayores",
-    "date": "27 sep. 2025",
+    "rawDate": "27 sep. 2025",
     "time": "Sin hora",
     "venue": "Gran Teatro de Cáceres",
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/web2-1.jpg",
+    "date": "27-09-2025",
     "imagePath": "images/ALEX O´DOGHERTY, Palabras Mayores.jpg"
   },
   {
     "title": "UN CADAVER A LAS DIEZ",
-    "date": "28 sep. 2025",
+    "rawDate": "28 sep. 2025",
     "time": "Sin hora",
     "venue": "Gran Teatro de Cáceres",
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/CADAVERALASDIEZ.jpg",
+    "date": "28-09-2025",
     "imagePath": "images/UN CADAVER A LAS DIEZ.jpg"
   },
   {
     "title": "MIRIAN CANTERO",
-    "date": "2 oct. 2025",
+    "rawDate": "2 oct. 2025",
     "time": "Sin hora",
     "venue": "Gran Teatro de Cáceres",
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/LOSJUEVESALSONMIRIAMCANTERO.jpg",
+    "date": "02-10-2025",
     "imagePath": "images/MIRIAN CANTERO.jpg"
   },
   {
     "title": "DANI MATEO, ¿POR QUÉ NO TE CALLAS?",
-    "date": "5 oct. 2025",
+    "rawDate": "5 oct. 2025",
     "time": "Sin hora",
     "venue": "Gran Teatro de Cáceres",
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/70x100DaniMAteookcaceresWEB.jpg",
+    "date": "05-10-2025",
     "imagePath": "images/DANI MATEO, ¿POR QUÉ NO TE CALLAS_.jpg"
   },
   {
     "title": "NIÑO INDIGO presenta PAISAJES A MITAD DEL CAMINO",
-    "date": "9 oct. 2025",
+    "rawDate": "9 oct. 2025",
     "time": "Sin hora",
     "venue": "Gran Teatro de Cáceres",
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/CARTELLOSJUEVESALSONNIOINDIGO.jpg",
+    "date": "09-10-2025",
     "imagePath": "images/NIÑO INDIGO presenta PAISAJES A MITAD DEL CAMINO.jpg"
   },
   {
     "title": "LA APARICIÓN",
-    "date": "11 oct. 2025",
+    "rawDate": "11 oct. 2025",
     "time": "Sin hora",
     "venue": "Gran Teatro de Cáceres",
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/APARICION.jpg",
+    "date": "11-10-2025",
     "imagePath": "images/LA APARICIÓN.jpg"
   },
   {
     "title": "NO ME TOQUES EL CUENTO, SEGUNDA TEMPORADA",
-    "date": "19 oct. 2025",
+    "rawDate": "19 oct. 2025",
     "time": "Sin hora",
     "venue": "Gran Teatro de Cáceres",
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/NOME.jpg",
+    "date": "19-10-2025",
     "imagePath": "images/NO ME TOQUES EL CUENTO, SEGUNDA TEMPORADA.jpg"
   },
   {
     "title": "DREAMING BUBBLES",
-    "date": "26 oct. 2025",
+    "rawDate": "26 oct. 2025",
     "time": "Sin hora",
     "venue": "Gran Teatro de Cáceres",
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/BubblesCceres.jpg",
+    "date": "26-10-2025",
     "imagePath": "images/DREAMING BUBBLES.jpg"
   },
   {
     "title": "SANTIAGO USERÓN - NERANTZI",
-    "date": "14 nov. 2025",
+    "rawDate": "14 nov. 2025",
     "time": "Sin hora",
     "venue": "Gran Teatro de Cáceres",
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/SANTIAGOUSERON.jpg",
+    "date": "14-11-2025",
     "imagePath": "images/SANTIAGO USERÓN - NERANTZI.jpg"
   },
   {
     "title": "GRAN CIRCO ACROBÁTICO DE CHINA",
-    "date": "22 nov. 2025",
+    "rawDate": "22 nov. 2025",
     "time": "Sin hora",
     "venue": "Gran Teatro de Cáceres",
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/china.jpg",
+    "date": "22-11-2025",
     "imagePath": "images/GRAN CIRCO ACROBÁTICO DE CHINA.jpg"
   },
   {
     "title": "JUAN VALDERRAMA. HISTORIAS DE LA COPLA",
-    "date": "30 nov. 2025",
+    "rawDate": "30 nov. 2025",
     "time": "Sin hora",
     "venue": "Gran Teatro de Cáceres",
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/VAL-CC-POST.jpg",
+    "date": "30-11-2025",
     "imagePath": "images/JUAN VALDERRAMA. HISTORIAS DE LA COPLA.jpg"
   },
   {
     "title": "QUIQUE GONZALEZ, Gira 1973",
-    "date": "16 ene. 2026",
+    "rawDate": "16 ene. 2026",
     "time": "Sin hora",
     "venue": "Gran Teatro de Cáceres",
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/QUIQUE.jpg",
+    "date": "16-01-2026",
     "imagePath": "images/QUIQUE GONZALEZ, Gira 1973.jpg"
   }
 ]
