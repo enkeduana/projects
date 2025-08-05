@@ -31,6 +31,7 @@ function downloadImage(url, filepath) {
     elements.map(show => {
       const titleEl = show.querySelector('span a');
       const imageEl = show.querySelector('img');
+      const venue = 'Teatro López de Ayala';
 
       const dateEls = show.querySelectorAll('.datePart');
       const dateText = dateEls[0] ? dateEls[0].innerText.slice(0, -3) : '';
@@ -40,6 +41,7 @@ function downloadImage(url, filepath) {
         title: titleEl ? titleEl.innerText.trim() : 'Sin título',
         date: dateText || 'Sin fecha',
         time: timeText || 'Sin hora',
+        venue: venue || 'Sin lugar',
         image: imageEl ? imageEl.src : null
       };
     })
