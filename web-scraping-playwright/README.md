@@ -1,17 +1,20 @@
 
 ## Web Scraping with Playwright
 
-This project is a basic test to scrape a local theatre website for upcoming events using [Playwright](https://playwright.dev/).
+This project is a basic test to scrape two local theatre websites for upcoming events using [Playwright](https://playwright.dev/).
 
-The main goal is to extract event information (such as title, date, and time) by automating a Chromium browser and querying DOM elements.
+The main goal is to extract event information (such as title, date, time and thumbnail picture) by automating a Chromium browser and querying DOM elements.
 
-The extracted results are printed directly to the console.
+The extracted results are printed directly to the console, and on a basic interface that show every event as a bootstrap card.
 
 Project structure:
 
     .
     ├── scrape.js         # Main scraping script
+    |── index.html        # Basic interface
+    |── data.json         # Event storage
     ├── package.json      # Node project configuration
+    |── images            # Event thumbnails storage
     └── README.md         # Project documentation
 
 
