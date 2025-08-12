@@ -5,7 +5,7 @@ This project is a basic test to scrape two local theatre websites for upcoming e
 
 The main goal is to extract event information (such as title, date, time and thumbnail picture) by automating a Chromium browser and querying DOM elements.
 
-The extracted results are printed directly to the console, and on a basic interface that show every event as a bootstrap card.
+The extracted results are printed directly to the console, and on a basic interface that shows every event as a bootstrap card.
 
 Project structure:
 
@@ -17,7 +17,10 @@ Project structure:
     |── images            # Event thumbnails storage
     └── README.md         # Project documentation
 
+Event sources:
 
+[Teatro López de Ayala, Badajoz (Spain)](https://www.teatrolopezdeayala.es/shows/list)
+[Gran Teatro de Cáceres, Cáceres (Spain)](https://www.granteatrocc.com/programacion.php)
 
 ### 1. Environment Setup
 
@@ -56,7 +59,10 @@ To execute the script (scrape.js):
 
     ```node scrape.js```
     
+The event date will be saved in ```data.json```    
 The scraped data will be logged to the console.
+
+To visualize the events on the interface open ```index.html``` on a website browser. This file takes the event information from ```data.json``` and present it on a html format using bootstrap.
 
 
 
