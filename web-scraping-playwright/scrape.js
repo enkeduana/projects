@@ -4,44 +4,44 @@ const path = require('path');
 const https = require('https');
 
 // Unificador y formateador de fechas
-function parseFecha(rawDate) {
+function parseDate(rawDate) {
   if (!rawDate || typeof rawDate !== 'string') return null;
 
   rawDate = rawDate.trim().toLowerCase();
 
-  const mesesLargos = {
+  const longMonthNames = {
     'enero': '01', 'febrero': '02', 'marzo': '03',
     'abril': '04', 'mayo': '05', 'junio': '06',
     'julio': '07', 'agosto': '08', 'septiembre': '09',
-    'setiembre': '09', 'octubre': '10', 'noviembre': '11', 'diciembre': '12'
+    'octubre': '10', 'noviembre': '11', 'diciembre': '12'
   };
 
-  const mesesCortos = {
+  const shortMonthNames = {
     'ene': '01', 'feb': '02', 'mar': '03',
     'abr': '04', 'may': '05', 'jun': '06',
-    'jul': '07', 'ago': '08', 'sep': '09', 'set': '09',
+    'jul': '07', 'ago': '08', 'sep': '09',
     'oct': '10', 'nov': '11', 'dic': '12'
   };
 
   // Ej: "Miércoles 06 de agosto"
-  const matchLargo = rawDate.match(/(\d{1,2})\s+de\s+([a-zá]+)/i);
-  if (matchLargo) {
-    const [_, dia, mes] = matchLargo;
-    const mesNum = mesesLargos[mes];
-    if (mesNum) {
-      const hoy = new Date();
-      const año = hoy.getFullYear();
-      return `${dia.padStart(2, '0')}-${mesNum}-${año}`;
+  const matchLongMonth = rawDate.match(/(\d{1,2})\s+de\s+([a-zá]+)/i);
+  if (matchLongMonth) {
+    const [_, day, month] = matchLongMonth;
+    const monthNum = longMonthNames[month];
+    if (monthNum) {
+      const today = new Date();
+      const year = today.getFullYear();
+      return `${day.padStart(2, '0')}-${monthNum}-${year}`;
     }
   }
 
   // Ej: "19 sep. 2025"
   const matchCorto = rawDate.match(/(\d{1,2})\s+([a-z]{3})\.?\s+(\d{4})/i);
   if (matchCorto) {
-    const [_, dia, mes, año] = matchCorto;
-    const mesNum = mesesCortos[mes];
-    if (mesNum) {
-      return `${dia.padStart(2, '0')}-${mesNum}-${año}`;
+    const [_, day, month, year] = matchCorto;
+    const monthNum = shortMonthNames[month];
+    if (monthNum) {
+      return `${day.padStart(2, '0')}-${monthNum}-${year}`;
     }
   }
 
@@ -80,10 +80,10 @@ async function processImages(shows) {
         const safeTitle = show.title.replace(/[\\/:*?"<>|]/g, '_');
         const filePath = path.join(imgDir, `${safeTitle}${ext}`);
         await downloadImage(show.image, filePath);
-        console.log(`Imagen descargada: ${filePath}`);
+        console.log(`Downloaded image: ${filePath}`);
         show.imagePath = `images/${safeTitle}${ext}`;
       } catch (err) {
-        console.error(`Error al descargar imagen de ${show.title}:`, err);
+        console.error(`Failed to download image for ${show.title}:`, err);
       }
     }
   }
@@ -109,7 +109,7 @@ async function scrapeLopezDeAyala(browser) {
       return {
         title: titleEl?.innerText.trim() || '',
         rawDate: dateText,
-        time: timeText || 'Sin hora',
+        time: timeText || 'Sin hora', // No time
         venue: 'Teatro López de Ayala',
         image: imageEl?.src || null
       };
@@ -122,7 +122,7 @@ async function scrapeLopezDeAyala(browser) {
     .filter(show => show.title)
     .map(show => ({
       ...show,
-      date: parseFecha(show.rawDate) || 'Sin fecha'
+      date: parseDate(show.rawDate) || 'Sin fecha' // No date
     }));
 
   return await processImages(shows);
@@ -156,7 +156,7 @@ async function scrapeGranTeatro(browser) {
     .filter(show => show.title)
     .map(show => ({
       ...show,
-      date: parseFecha(show.rawDate) || 'Sin fecha'
+      date: parseDate(show.rawDate) || 'Sin fecha' // No date
     }));
 
   return await processImages(shows);
@@ -175,9 +175,9 @@ async function scrapeGranTeatro(browser) {
     allShows.push(...showsLopez, ...showsCaceres);
 
     fs.writeFileSync('data.json', JSON.stringify(allShows, null, 2), 'utf-8');
-    console.log('Todos los datos guardados en data.json');
+    console.log('All data stored in data.json');
   } catch (err) {
-    console.error('Error general:', err);
+    console.error('General error:', err);
   } finally {
     await browser.close();
   }
