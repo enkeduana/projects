@@ -11,11 +11,14 @@ Project structure:
 
     .
     ├── scrape.js         # Main scraping script
-    |── index.html        # Basic interface
-    |── data.json         # Event storage
+    ├── index.html        # Interface
+    ├── data.json         # Event storage
     ├── package.json      # Node project configuration
-    |── images            # Event thumbnails storage
+    ├── images/           # Event thumbnails storage
+    │   ├── thumb1.png    # Example
+    │   └── thumb2.png    # Example
     └── README.md         # Project documentation
+
 
 Event sources:
 
@@ -59,8 +62,7 @@ To execute the script (scrape.js):
 
     ```node scrape.js```
     
-The event date will be saved in ```data.json```    
-The scraped data will be logged to the console.
+The event information such as name, date, time and place will be saved in ```data.json``` . The associated picture will download into the images directory. 
 
 To visualize the events on the interface open ```index.html``` on a website browser. This file takes the event information from ```data.json``` and present it on a html format using bootstrap.
 
@@ -68,11 +70,11 @@ To visualize the events on the interface open ```index.html``` on a website brow
 
 ### 5. Website scraping policies
 
-Before scraping any website, always check whether the site allows it by visiting its robots.txt file. Simply add /robots.txt to the base URL, for example:
+Before scraping any website, always check whether the site allows it by visiting its ``robots.txt`` file. Simply add ``/robots.txt`` to the base URL, for example:
 
     https://example.com/robots.txt
     
-Typical entries in a robots.txt file:
+Typical entries in a ``robots.txt`` file:
 
     User-agent: *       # Applies to all bots
     Disallow: /private  # This path is off-limits
