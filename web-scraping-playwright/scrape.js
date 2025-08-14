@@ -1,7 +1,17 @@
+
+
+// Import the 'chromium' browser object from Playwright for browser automation tasks
 const { chromium } = require('playwright');
+
+// Import Node.js built-in 'fs' module to work with the file system (read/write files)
 const fs = require('fs');
+
+// Import Node.js built-in 'path' module to handle and transform file and directory paths
 const path = require('path');
+
+// Import Node.js built-in 'https' module to make HTTPS requests (download data from secure URLs)
 const https = require('https');
+
 
 
 /**
