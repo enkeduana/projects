@@ -3,7 +3,14 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-// Unificador y formateador de fechas
+
+/**
+ * Parses a raw date string in Spanish and converts it to the "DD-MM-YYYY" format,
+ * ensuring all dates follow the same pattern even if they come from different sources.
+ * 
+ * @param {string} rawDate - The raw date string to be parsed.
+ * @returns {string|undefined} - The formatted date string or undefined if parsing fails.
+ */
 function parseDate(rawDate) {
   if (!rawDate || typeof rawDate !== 'string') return null;
 
@@ -23,7 +30,19 @@ function parseDate(rawDate) {
     'oct': '10', 'nov': '11', 'dic': '12'
   };
 
-  // Ej: "Miércoles 06 de agosto"
+
+/**
+ * Pattern detail:
+ * 
+ * / ... /i        → case insensitive (matches uppercase and lowercase)
+ * (\d{1,2})       → group 1: day (one or two digits)
+ * \s+             → one or more white spaces
+ * de              → the word "de"
+ * \s+             → one or more white spaces
+ * ([a-zá]+)       → group 2: month name (letters a–z or "á"; case insensitive)
+ * 
+ * Example: "Miércoles 06 de agosto"
+ */
   const matchLongMonth = rawDate.match(/(\d{1,2})\s+de\s+([a-zá]+)/i);
   if (matchLongMonth) {
     const [_, day, month] = matchLongMonth;
@@ -35,10 +54,23 @@ function parseDate(rawDate) {
     }
   }
 
-  // Ej: "19 sep. 2025"
-  const matchCorto = rawDate.match(/(\d{1,2})\s+([a-z]{3})\.?\s+(\d{4})/i);
-  if (matchCorto) {
-    const [_, day, month, year] = matchCorto;
+
+  /**
+ * Pattern detail:
+ * 
+ * / ... /i          → case insensitive (matches uppercase and lowercase)
+ * (\d{1,2})         → group 1: day (one or two digits)
+ * \s+               → one or more white spaces
+ * ([a-z]{3})        → group 2: abbreviated month name (three letters a–z; case insensitive)
+ * \.?               → optional dot (to match both "sep" and "sep.")
+ * \s+               → one or more white spaces
+ * (\d{4})           → group 3: year (exactly four digits)
+ * 
+ * Example: "19 sep. 2025"
+ */
+  const matchShort = rawDate.match(/(\d{1,2})\s+([a-z]{3})\.?\s+(\d{4})/i);
+  if (matchShort) {
+    const [_, day, month, year] = matchShort;
     const monthNum = shortMonthNames[month];
     if (monthNum) {
       return `${day.padStart(2, '0')}-${monthNum}-${year}`;
@@ -47,6 +79,7 @@ function parseDate(rawDate) {
 
   return null;
 }
+
 
 // Descargar imagen
 function downloadImage(url, filepath) {
