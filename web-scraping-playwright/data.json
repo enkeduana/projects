@@ -1,32 +1,5 @@
 [
   {
-    "title": "CINE DE VERANO - \"POBRES CRIATURAS\"",
-    "rawDate": "Miércoles 06 de agosto",
-    "time": "22:00",
-    "venue": "Teatro López de Ayala",
-    "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1753274739POBRES_CRIATURAS-web.jpg",
-    "date": "06-08-2025",
-    "imagePath": "images/CINE DE VERANO - _POBRES CRIATURAS_.jpg"
-  },
-  {
-    "title": "LAS VERBENAS DEL LÓPEZ - \"COMANDO BELUSHI\"",
-    "rawDate": "Viernes 08 de agosto",
-    "time": "22:00",
-    "venue": "Teatro López de Ayala",
-    "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1753171845WEB.jpg",
-    "date": "08-08-2025",
-    "imagePath": "images/LAS VERBENAS DEL LÓPEZ - _COMANDO BELUSHI_.jpg"
-  },
-  {
-    "title": "CINE DE VERANO - \"BUFFALO KIDS\"",
-    "rawDate": "Miércoles 13 de agosto",
-    "time": "22:00",
-    "venue": "Teatro López de Ayala",
-    "image": "https://www.teatrolopezdeayala.es/thumbnails/shows/1753274941BUFFALO_KIDS-web.jpg",
-    "date": "13-08-2025",
-    "imagePath": "images/CINE DE VERANO - _BUFFALO KIDS_.jpg"
-  },
-  {
     "title": "CINE DE VERANO - \"LA INFILTRADA\"",
     "rawDate": "Miércoles 20 de agosto",
     "time": "22:00",
@@ -279,103 +252,31 @@
     "imagePath": "images/EL GATO CON JOTAS.jpg"
   },
   {
-    "title": "ALEX O´DOGHERTY, Palabras Mayores",
-    "rawDate": "27 sep. 2025",
-    "time": null,
-    "venue": "Gran Teatro de Cáceres",
-    "image": "https://www.granteatrocc.com/img_espectaculos/peq/web2-1.jpg",
-    "date": "27-09-2025",
-    "imagePath": "images/ALEX O´DOGHERTY, Palabras Mayores.jpg"
-  },
-  {
-    "title": "UN CADAVER A LAS DIEZ",
-    "rawDate": "28 sep. 2025",
-    "time": null,
-    "venue": "Gran Teatro de Cáceres",
-    "image": "https://www.granteatrocc.com/img_espectaculos/peq/CADAVERALASDIEZ.jpg",
-    "date": "28-09-2025",
-    "imagePath": "images/UN CADAVER A LAS DIEZ.jpg"
-  },
-  {
-    "title": "MIRIAN CANTERO",
-    "rawDate": "2 oct. 2025",
-    "time": null,
-    "venue": "Gran Teatro de Cáceres",
-    "image": "https://www.granteatrocc.com/img_espectaculos/peq/LOSJUEVESALSONMIRIAMCANTERO.jpg",
-    "date": "02-10-2025",
-    "imagePath": "images/MIRIAN CANTERO.jpg"
-  },
-  {
-    "title": "DANI MATEO, ¿POR QUÉ NO TE CALLAS?",
-    "rawDate": "5 oct. 2025",
-    "time": null,
-    "venue": "Gran Teatro de Cáceres",
-    "image": "https://www.granteatrocc.com/img_espectaculos/peq/70x100DaniMAteookcaceresWEB.jpg",
-    "date": "05-10-2025",
-    "imagePath": "images/DANI MATEO, ¿POR QUÉ NO TE CALLAS_.jpg"
-  },
-  {
-    "title": "NIÑO INDIGO presenta PAISAJES A MITAD DEL CAMINO",
-    "rawDate": "9 oct. 2025",
-    "time": null,
-    "venue": "Gran Teatro de Cáceres",
-    "image": "https://www.granteatrocc.com/img_espectaculos/peq/CARTELLOSJUEVESALSONNIOINDIGO.jpg",
-    "date": "09-10-2025",
-    "imagePath": "images/NIÑO INDIGO presenta PAISAJES A MITAD DEL CAMINO.jpg"
-  },
-  {
-    "title": "LA APARICIÓN",
-    "rawDate": "11 oct. 2025",
-    "time": null,
-    "venue": "Gran Teatro de Cáceres",
-    "image": "https://www.granteatrocc.com/img_espectaculos/peq/APARICION.jpg",
-    "date": "11-10-2025",
-    "imagePath": "images/LA APARICIÓN.jpg"
-  },
-  {
-    "title": "NO ME TOQUES EL CUENTO, SEGUNDA TEMPORADA",
-    "rawDate": "19 oct. 2025",
-    "time": null,
-    "venue": "Gran Teatro de Cáceres",
-    "image": "https://www.granteatrocc.com/img_espectaculos/peq/NOME.jpg",
-    "date": "19-10-2025",
-    "imagePath": "images/NO ME TOQUES EL CUENTO, SEGUNDA TEMPORADA.jpg"
-  },
-  {
-    "title": "DREAMING BUBBLES",
-    "rawDate": "26 oct. 2025",
-    "time": null,
-    "venue": "Gran Teatro de Cáceres",
-    "image": "https://www.granteatrocc.com/img_espectaculos/peq/BubblesCceres.jpg",
-    "date": "26-10-2025",
-    "imagePath": "images/DREAMING BUBBLES.jpg"
-  },
-  {
-    "title": "SANTIAGO USERÓN - NERANTZI",
-    "rawDate": "14 nov. 2025",
-    "time": null,
-    "venue": "Gran Teatro de Cáceres",
-    "image": "https://www.granteatrocc.com/img_espectaculos/peq/SANTIAGOUSERON.jpg",
-    "date": "14-11-2025",
-    "imagePath": "images/SANTIAGO USERÓN - NERANTZI.jpg"
-  },
-  {
-    "title": "GRAN CIRCO ACROBÁTICO DE CHINA",
+    "title": "GRAN  CIRCO ACROBÁTICO DE CHINA",
     "rawDate": "22 nov. 2025",
     "time": null,
     "venue": "Gran Teatro de Cáceres",
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/china.jpg",
     "date": "22-11-2025",
-    "imagePath": "images/GRAN CIRCO ACROBÁTICO DE CHINA.jpg"
+    "imagePath": "images/GRAN  CIRCO ACROBÁTICO DE CHINA.jpg"
   },
   {
-    "title": "JUAN VALDERRAMA. HISTORIAS DE LA COPLA",
+    "title": "JUAN  VALDERRAMA. HISTORIAS DE LA COPLA",
     "rawDate": "30 nov. 2025",
     "time": null,
     "venue": "Gran Teatro de Cáceres",
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/VAL-CC-POST.jpg",
     "date": "30-11-2025",
-    "imagePath": "images/JUAN VALDERRAMA. HISTORIAS DE LA COPLA.jpg"
+    "imagePath": "images/JUAN  VALDERRAMA. HISTORIAS DE LA COPLA.jpg"
+  },
+  {
+    "title": "CANDLELIGHT. TRIBUTO A HANS ZIMMER",
+    "rawDate": "20 dic. 2025",
+    "time": null,
+    "venue": "Gran Teatro de Cáceres",
+    "image": "https://www.granteatrocc.com/img_espectaculos/peq/571194-Candlelight_MEDIAKIT_GENERIC_2023_07_14_Majlis-Madina-Jumeirah_DUBAI_AE_17-303b5f-original-1737381730.jpg",
+    "date": "20-12-2025",
+    "imagePath": "images/CANDLELIGHT. TRIBUTO A HANS ZIMMER.jpg"
   },
   {
     "title": "QUIQUE GONZALEZ, Gira 1973",
@@ -385,5 +286,14 @@
     "image": "https://www.granteatrocc.com/img_espectaculos/peq/QUIQUE.jpg",
     "date": "16-01-2026",
     "imagePath": "images/QUIQUE GONZALEZ, Gira 1973.jpg"
+  },
+  {
+    "title": "FACU DIAZ- Esto no es culpa de nadie",
+    "rawDate": "15 mar. 2026",
+    "time": null,
+    "venue": "Gran Teatro de Cáceres",
+    "image": "https://www.granteatrocc.com/img_espectaculos/peq/facu.jpg",
+    "date": "15-03-2026",
+    "imagePath": "images/FACU DIAZ- Esto no es culpa de nadie.jpg"
   }
 ]

@@ -91,9 +91,17 @@ function parseDate(rawDate) {
 }
 
 
-// Descargar imagen
+/**
+ * 
+ * 
+ * @param {*} url 
+ * @param {*} filepath 
+ * @returns 
+ */
 function downloadImage(url, filepath) {
+  
   return new Promise((resolve, reject) => {
+
     const file = fs.createWriteStream(filepath);
     https.get(url, (response) => {
       response.pipe(file);
@@ -102,8 +110,12 @@ function downloadImage(url, filepath) {
       fs.unlink(filepath, () => {});
       reject(err.message);
     });
+
   });
 }
+
+
+
 
 // Crear carpeta si no existe
 function ensureImageDir() {
